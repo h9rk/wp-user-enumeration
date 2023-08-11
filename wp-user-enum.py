@@ -1,7 +1,5 @@
 # wp-enum.py
 import requests
-import threading
-import time
 import sys
 import os
 import json
