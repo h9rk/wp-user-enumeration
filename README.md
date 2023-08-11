@@ -1,1 +1,1 @@
-# wp-user-enumeration
+# Wordpress User Enumeration Python Script
