@@ -70,8 +70,11 @@ def wp_enum():
 
     for url in urls:
         try:
+            if 'http' in url:
+                url = url.replace("http://",'').replace('https://','')
             final_url = url + path
             response = requests.get("https://" + url + path)
+
             
             if response.status_code == 200:
                 if "description" in response.text:
